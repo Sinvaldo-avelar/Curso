@@ -20,6 +20,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <EditText
         android:id="@+id/editTextText2"
         android:layout_width="match_parent"
@@ -28,7 +29,7 @@
         android:layout_marginTop="44dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:text="Nome"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="16dp" />
