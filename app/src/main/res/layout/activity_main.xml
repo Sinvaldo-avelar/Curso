@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".view.MainActivity">
 
     <TextView
         android:id="@+id/textView3"
@@ -88,8 +88,9 @@
         android:text="@string/limpar"
         app:layout_constraintBottom_toTopOf="@+id/button7"
         app:layout_constraintTop_toBottomOf="@+id/editTextText10"
-        tools:layout_editor_absoluteX="39dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintVertical_bias="0.157"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="41dp" />
 
     <Button
         android:id="@+id/button6"
@@ -99,18 +100,20 @@
         android:text="@string/salvar"
         app:layout_constraintBottom_toTopOf="@+id/button7"
         app:layout_constraintTop_toBottomOf="@+id/editTextText10"
-        tools:layout_editor_absoluteX="257dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintVertical_bias="0.157"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="245dp" />
 
     <Button
         android:id="@+id/button7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
+        android:layout_marginBottom="172dp"
         android:text="@string/finalizar"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="446dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 
